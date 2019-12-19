@@ -1,12 +1,12 @@
 body {
-background-color: #1c1f1d;
+background-color: #1e211f;
 text-align: center;
 font-family: serif;
 font-size: 20px;
 color: #fff;
 }
 h1 {
-font-size: 64px;
+font-size: 44px;
 color:limegreen;
 }
 h2.jumbotron {
@@ -23,5 +23,7 @@ button{
 }
 
 div#buttons{
-    background-color:limegreen;
+  position: sticky;
+  top: 0px;
+  background-color: black;
 }
