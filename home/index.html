@@ -3,31 +3,34 @@
 <head>
     <title>Home</title>
 
-    <link rel="stylesheet" href="CSS.css">
-    <script src="JS.js"></script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../CSS.css">
+    <script src="../JS.js"></script>
+
 
 </head>
 
 <body>
+    <div class="container">
     <h1>BPA Project</h1><br>
-    <div>
-        <button id="aboutUs" onclick="location.href='/BPA_WebDesign435-master/about_us/aboutUs.html'">About Us</button>
-        <button id="challenges" onclick="location.href='/BPA_WebDesign435-master/challenges/challenges.html'"> Challenges</button>
-        <button id="construction" onclick="location.href='/BPA_WebDesign435-master/construction/construction.html'">Construction</button>
-        <button id="features" onclick="location.href='/BPA_WebDesign435-master/features/features.html'">Features</button>
-        <button id="impact" onclick="location.href='/BPA_WebDesign435-master/impact_and_benefits/impact.html'">Impact and Benefits</button>
-        <button id="potentialProblems" onclick="location.href='/BPA_WebDesign435-master/potential_problems/potentialProblems.html'">Potential Problems</button>
-        <button id="workCited" onclick="location.href='/BPA_WebDesign435-master/work_cited/workCited.html'">Word Cited</button>
+    <div id="buttons">
+        <button id="home" onclick="location.href='../home/index.html'">Home</button>
+        <button id="aboutUs" onclick="location.href='../about_us/aboutUs.html'">About Us</button>
+        <button id="challenges" onclick="location.href='../challenges/challenges.html'"> Challenges</button>
+        <button id="features" onclick="location.href='../features/features.html'">Features</button>
+        <button id="impact" onclick="location.href='../impact_and_benefits/impact.html'">Impact and Benefits</button>
+        <button id="potentialProblems" onclick="location.href='../problems/problems.html'">Potential Problems</button>
+        <button id="construction" onclick="location.href='../construction/construction.html'" >construction</button>
+        <button id="workCited" onclick="location.href='../work_cited/workCited.html'">Word Cited</button>
     </div>
     
     <h2 class="jumbotron">Home</h2>
-        <h2>Environmental Impact</h2><br>
+        <h2>about our project</h2><br>
             <!--Why create a bio-friendly home-->
             <p>Text.</p><br>
             <p>More text.</p><br>
@@ -41,7 +44,7 @@
             <!--//How the features help the environment (tying 1 and 2 together)-->
             <p>Some other extra text.</p>
             <p>Another set of extra text.</p>
-
+        </div>
 </body>
 
 </html>
