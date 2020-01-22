@@ -1,29 +1,29 @@
 body {
-background-color: #1e211f;
+background-color: #66B032;
 text-align: center;
 font-family: serif;
 font-size: 20px;
-color: #fff;
+color: black;
 }
 h1 {
 font-size: 44px;
-color:limegreen;
+color:#1B3409;
 }
 h2.jumbotron {
 font-size: 32px;
 color:limegreen;
-background-color:#303833;
+background-color:#1B3409;
 }
 button{
-    background-color:black;
+    background-color:#1B3409;
     color: white;
     border-radius: 4px;
-    border: 2px solid gray;
+    border:none;
     font-size: 30px;
 }
 
 div#buttons{
   position: sticky;
   top: 0px;
-  background-color: black;
+  background-color: #375F1B;
 }
