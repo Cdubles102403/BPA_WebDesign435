@@ -42,3 +42,7 @@ li{
     margin-left: 40%;
 
 }
+img{
+    max-width: 30%;
+  height: auto;
+}
