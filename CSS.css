@@ -1,20 +1,19 @@
 body {
-background-color: #66B032;
-text-align: center;
-list-style-position: inside;
-font-family: serif;
-font-size: 20px;
-color: black;
-    
+    background-color: #8ced47;
+    text-align: center;
+    list-style-position: inside;
+    font-family: serif;
+    font-size: 20px;
+    color: black;
 }
 h1 {
-font-size: 44px;
-color:#1B3409;
+    font-size: 44px;
+    color:#1B3409;
 }
 h2.jumbotron {
-font-size: 32px;
-color:white;
-background-color:#1B3409;
+    font-size: 32px;
+    color:white;
+    background-color:#1B3409;
 }
 button{
     background-color:#375F1B;
@@ -24,6 +23,9 @@ button{
     font-size: 25px;
     
 }
+div.container{
+    background-color: #66B032;
+}
 
 div#buttons{
   position: sticky;
@@ -31,4 +33,12 @@ div#buttons{
   background-color: #375F1B;
   margin-left: -10px;
   margin-right: -10px;
+}
+hr{
+    background-color:black;
+}
+li{
+  text-align: justify;
+    margin-left: 40%;
+
 }
